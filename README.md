@@ -1,6 +1,6 @@
 Swami Shreeji
 
-Sapan Bodiwala - SBODI's Website 2014 Copywrite
+Sapan Bodiwala - SBODI's Website 2014 Copyright
 
 WELCOME TO SBODI'S WEBSITE README FILE
 
