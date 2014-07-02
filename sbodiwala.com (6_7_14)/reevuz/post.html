@@ -1,0 +1,114 @@
+<!-- Swami Shreeji -->
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!--MOBILE FIRST -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>REEVUZ! - Social Media Application for Products</title>
+
+	<!--BOOTSTRAP CSS-->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- GOOGLE FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo|Lemon' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+		<!-- MENU AREA -->
+		<div class="container">
+			<div class="page-header">
+				<!--ADD IMAGES ALONG TOP -->
+				<img src="images/people.png" style="width: 100px; height: auto; margin-left: 40px;">
+				<!--REEVUZ -->
+				<h1 style="color: #4EB0FF; font-family: 'Lemon', cursive; float: left; clear: both;">REEVUZ</h1>
+				<img src="images/laptop.png" style="width: 100px; height: auto; margin-left: 40px;">
+				<img src="images/review.jpg" style="width: 100px; height: auto; margin-left: 40px;">
+
+				<button class="btn btn-default btn-lg" style="margin-left: 50px;">
+					<span class="glyphicon glyphicon-align-justify"></span>
+				</button>
+			</div>
+		</div>
+
+		<!-- NAVIGATION - POST, VIEW, SEARCH, EDIT -->
+		<div class="container">
+
+			<ul class="nav nav-pills">
+				<li class="active">
+					<a href="post.html">
+						<img src="images/post.png" style="width: 100px; height: auto;">
+						<span class="badge pull-right"></span>
+						Post
+					</a>
+				</li>
+				<li>
+					<a href="view.html">
+						<img src="images/view.png" style="width: 100px; height: auto;">
+						<span class="badge pull-right"></span>
+						View
+					</a>
+				</li>
+				<li>
+					<a href="search.html">
+						<img src="images/search.png" style="width: 100px; height: auto;">
+						<span class="badge pull-right"></span>
+						Search
+					</a>
+				</li>
+				<li>
+					<a href="index.html">
+						<img src="images/edit.png" style="width: 100px; height: auto;">
+						<span class="badge pull-right"></span>
+						Edit
+					</a>
+				</li>
+		</div><br/><br/>
+
+
+		<!-- CONTENT AREA -->
+		<div class="container">
+
+		<h2>Hello, Sapan!</h2>
+		<h3 class="lead"> <b>Post</b> Your New Product / Service !</h3>
+
+		<form class="input-group">
+
+			<h3 class="lead">Product
+			<input class="" name="1" type="radio"></input> | Service
+			<input class="" name="1" type="radio"></input></h3>
+			
+			<h3 class="lead">Product Name - What is it Called!?</h3>
+			<input class="form-control" type="text"></input><br/>
+			<h3 class="lead">Price </h3>
+			<input class="form-control" type="text" placeholder="$0.00"></input><br/>
+			
+			<h3 class="lead">Category - Choose the one that fits your product the Best</h3> 
+			<select>
+				<option value="1">Electronics</option>
+				<option value="2">Electronics</option>
+				<option value="3">Electronics</option>
+				<option value="4">Electronics</option>
+				<option value="5">Electronics</option>
+			</select><br/>
+
+			<h3 class="lead">Picture - Selfies are Recommended!</h3>
+			<input type="file"></input>
+
+			<h3 class="lead">Review - Description of your experience with Product</h3>
+			<textarea class="form-control" rows="4" cols="50"></textarea>
+
+			<button class="btn btn-primary">Submit!</button>
+		</form>
+
+
+
+		</div>
+
+
+	<!-- JAVASCRIPT FOR BOOTSTRAP -->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
