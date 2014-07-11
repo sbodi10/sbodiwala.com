@@ -260,13 +260,257 @@ img {
 	height: 104px;
 }
 
-
 #jastropan {
 	margin-top: 60px;
+}
+
+.list-group-item:hover {
+	color: white;
+	background-color: #428BCA;
+}
+
+/*Smartphones (Iphone & Samsung)*/
+@media all and (min-width : 320px) and (max-width : 540px) {
+	
+	/* Home Page */
+	.page-header h1 {
+		font-size: 32px;
+	}
+
+	#front h1 {
+		font-size: 32px;
+	}
+
+	.page-header small {
+		font-size: 13px;
+		margin-left: -30%;
+	}
+
+	.nav > li > a {
+		position: ;
+		width: 220px;
+		padding-left: 80px;
+	}
+
+	#home-billboard {
+		background-image: url('../images/sapan2_small.jpg');
+		background-repeat: no-repeat;
+		background-position: center -110px;
+	}
+
+	#home-billboard p {
+		visibility: hidden;
+	}
+
+	/* About Me Page */
+	
+	#head small {
+		visibility: hidden;
+	}
+
+	#aboutme-billboard p {
+		visibility: hidden;
+	}
+
+	.container h1 {
+		font-size: 45px;
+	}
+
+	#aboutme-billboard {
+		background-image: url('../images/sapan1_small.jpg');
+		background-repeat: no-repeat;
+		background-position: center -100px;
+	}
+
+	/* Inspiration Page */
+
+	#inspiration-billboard {
+		background-image: url('../images/inspiration_small.jpg');
+		background-repeat: no-repeat;
+		background-position: center -10px;
+	}
+
+
+	/* Education Page */
+
+	#education-billboard {
+		background-image: url('../images/education1_small.jpg');
+		background-repeat: no-repeat;
+		background-position: center 0px;
+	}
+
+	#education-billboard p {
+		visibility: hidden;
+	}
+
+	#rutgers {
+		visibility: hidden;
+	}
+
+
+	/* Project Page */
+
+
+	#projects-billboard {
+		background-image: url('../images/projects_small.png');
+		background-repeat: no-repeat;
+		background-position: center 0px;
+	}
+
+	#projects-billboard p {
+		visibility: hidden;
+	}
+
+	#finger {
+		padding: 0px 15px 0px 15px;
+	}
+
+	#finger-p {
+		padding: 0px 15px 0px 15px;
+	}
+
+	#mo {
+		padding: 0px 15px 0px 15px;
+	}
+
+	.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+	}
+ 
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    padding-left: 10px;
+    	padding-right: 10px;
+	}
+
+	/* Leadership Page */
+
+	#leadership-billboard {
+		background-image: url('../images/leadership_small.jpg');
+		background-repeat: no-repeat;
+		background-position: -20px 10px;
+	}
+
+	#leadership-billboard p {
+		visibility: hidden;
+	}
+
+	/* Work Experience Page*/
+
+	#work-billboard {
+		background-image: url('../images/work1_small.jpg');
+		background-repeat: no-repeat;
+		background-position: center 0px;
+	}
+
+	#work-billboard p {
+		visibility: hidden;
+	}
+
+	#works h2 {
+		padding: 0px 15px 0px 15px;
+	}
+
+	/* Contact Page */
+
+	#contact-billboard {
+		background-image: url('../images/contact_small.png');
+		background-repeat: no-repeat;
+		background-position: -120px 0px;
+	}
+
+	#contact-billboard p {
+		visibility: hidden;
+	}
 }
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Inbetween Smartphone and Tablet*/
+@media only screen and (min-width : 541px) and (max-width : 768px) {
+	
+	/* Home Page */
+	.page-header h1 {
+		font-size: 46px;
+	}
+
+	.page-header small {
+		font-size: 16px;
+		margin-left: -30%;
+	}
+
+	.nav > li > a {
+	position: ;
+	width: 220px;
+	padding-left: 80px;
+	}
+
+	#home-billboard p {
+		visibility: hidden;
+	}
+
+	#rutgers {
+		visibility: hidden;
+	}
+
+}
+
+
+
+/*IPAD Tablet*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+	/* Home Page */
+	.page-header h1 {
+		font-size: 62px;
+	}
+
+	.page-header small {
+		font-size: 22px;
+	}
+
+	#home-billboard p {
+		visibility: hidden;
+	}
+
+	#rutgers {
+		visibility: hidden;
+	}
+
+
+}
 
