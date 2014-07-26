@@ -5,7 +5,7 @@
 <head>
     <link rel="icon" type="image/png" href="images/logo.jpg"/>
     <meta charset="UTF-8" http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale="1.0" maximum-scale=1.0, minimum-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     <title>SBODI | Sapan Bodiwala's Website</title>
     <meta name="description" content="Website">
     <meta name="author" content="Sapan Bodiwala">
@@ -99,11 +99,11 @@
 
 
 
-  <div class="container">
+  <div class="container" id="unhide">
     <div class="col-md-4" id="relclasses">
       <!-- LIST OF RELEVENT CLASSES -->
       <h3>Information Technology Curriculum</h3>
-      <ul class="list-group">
+      <ul class="list-group" id="classes">
         <li class="list-group-item"><span class="label label-primary">ITI:471</span> Interface Design</li>
         <li class="list-group-item"><span class="label label-primary">ITI332:</span> Advanced Web Design</li>
         <li class="list-group-item"><span class="label label-primary">ITI320:</span> Web Design</li>
@@ -124,7 +124,7 @@
     <div class="col-md-4" id="currclasses">
       <!-- LIST OF CURRENT CLASSES -->
       <h3>Interests & Personal Development Coursework</h3>
-      <ul class="list-group">
+      <ul class="list-group" id="personal">
         <li class="list-group-item"><span class="label label-danger">RBS: 110</span> Personal Finances & Decision Making</li>
         <li class="list-group-item"><span class="label label-danger">RBS: 285</span> Statistics for Business</li>
         <li class="list-group-item"><span class="label label-success">COMM192:</span> Public Speaking</li>
@@ -140,7 +140,7 @@
     <div class="col-md-4" id="ciractivities">
       <!-- LIST OF EXTRA CIRICULAR ACTIVITIES -->
       <h3>Extra Ciricular & Volunteer Activities</h3>
-      <ul class="list-group">
+      <ul class="list-group" id="volunteer">
         <li class="list-group-item"><span class="label label-primary">Gamma Nu Eta (GNH)</span> - Information Technology Honors Society <em>(Secretary, Spring 2013)</em></li>
         <li class="list-group-item"><span class="label label-danger">USACS & RU Mad</span> - Undergraduate Student Alliance of Computer Scientist & RU App Development Member</li>
         <li class="list-group-item"><span class="label label-success">Oxfam Rutgers</span> - Member</li>
@@ -161,5 +161,64 @@
 		<!-- jQuery && BootStrap-->
         <script src="js/jquery-1.10.2.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+        <script>
+
+          $(function() {
+
+
+            $('.list-group').ready( function()
+            {
+              $('#jumboedu').hide(0);
+              $('.list-group-item').hide(0);
+              $('#unhide').hide(0);
+            });
+
+
+            $(document).scroll(function()
+            {
+              var y = $(this).scrollTop();
+
+              if(y > 0) {
+                $('#jumboedu').fadeIn(2000);
+              }
+
+              if(y > 300) {
+                  $('#unhide').delay(800).fadeIn(1000);
+
+                  //var lists = $(this).attr('id');
+                  //$('#'+lists+' .list-group-item').delay(1000).slideDown(2000);
+                  //$('#'+lists+' .'+'list-group-item').delay(1000).slideDown(2000);
+                  $('#classes .list-group-item').delay(1000).slideDown(2000);
+                  $('#personal .list-group-item').delay(2000).slideDown(2000);
+                  $('#volunteer .list-group-item').delay(3000).slideDown(2000);
+                  
+              }
+            });
+
+          });
+
+
+
+
+
+
+
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <body>
 </html>
