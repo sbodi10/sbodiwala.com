@@ -233,16 +233,16 @@ img {
 	height: 500px;
 }
 
-#who a:hover {
-	color: #428bca;
+#who {
+	cursor: pointer;
 }
 
-#hobbies a:hover {
-	color: #428bca;
+#hobbies {
+	cursor: pointer;
 }
 
-#goals1 a:hover {
-	color: #428bca;
+#goals1:hover {
+	cursor: pointer;
 }
 
 /*RUTGERS LOGO */

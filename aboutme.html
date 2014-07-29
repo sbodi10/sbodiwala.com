@@ -81,28 +81,28 @@
 		<div class="container">
 			<div class="row" id="about-r">
 				<div class=".col-xs-6 .col-sm3 col-md-offset-9" style="width: 27%; margin-top: 20%; margin-left: 64%;">
-					<p id="who">Who is <a href="#sbodi" style="color:#FFF;"><em>Sapan Bodiwala</em></a>?</p>
+					<p id="who">Who is <a id="what" style="color:#FFF;"><em>Sapan Bodiwala</em></a>?</p>
 				</div>			
 				<div class=".col-xs-6 .col-sm3 col-md-offset-0">
-					<p id="hobbies" style="width: 25%; margin-top: 4%; margin-left: 9%;">What are his <a href="#current" style="color: white;"><em>hobbies</em></a>?</p>
+					<p id="hobbies" style="width: 25%; margin-top: 4%; margin-left: 9%;">What are his <a id="hobbies1" style="color: white;"><em>hobbies</em></a>?</p>
 				</div>
 				<div class=".col-xs-6 .col-sm3 col-md-offset-10" style="margin-left: 69%; width: 17%;">
-					<p id="goals">Current <a href="#goals1" style="color: white;"><em>goals</em></a>?</p>
+					<p id="goals">Current <a id="goals1" style="color: white;"><em>goals</em></a>?</p>
 				</div>
 			</div>
 		</div>
-													<a name="sbodi"></a>
+		<a name="sbodi"></a>
 	</div>
 
 	<div class="container">
 
-		<h1>Who Is <a>SBODI</a>? 
+		<h1 id="go">Who Is <a>SBODI</a>? 
 			<a href="video.html"><button class="btn btn-primary">Watch Video</button></a></h1>
 		
 
 
 		<div class="lead">
-			<p>My name is Sapan Bodiwala. Currently, I'm a Front-End Web Developer at Verizon Wireless. I have received my bachelor’s degree in Information Technology & Informatics from <a href="http://rutgers.edu" target="_blank">Rutgers University</a>. I'm a passionate individual who's willing to learn and develop in the latest front end technologies. I love to provide and deliver the best user experiences to clients.</p>
+			<p>My name is Sapan Bodiwala. Currently, I'm a Front-End Web Developer at Verizon Wireless. I have received my bachelor’s degree in Information Technology & Informatics from <a id="life" href="http://rutgers.edu" target="_blank">Rutgers University</a>. I'm a passionate individual who's willing to learn and develop in the latest front end technologies. I love to provide and deliver the best user experiences to clients.</p>
 			<a name="current"></a>
 		</div>
 
@@ -194,6 +194,56 @@
 		<!-- jQuery && BootStrap-->
         <script src="js/jquery-1.10.2.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+
+        $(function() {
+
+        	var what = $("#what");
+        	var hobbies1 = $("#hobbies1");
+        	var goals1 = $("#goals1");
+
+        	what.on('click', function() {
+        		$("body").animate({scrollTop: $("a[name='sbodi']").offset().top}, 2000);
+        	});
+
+        	what.mouseover(function() {
+        		what.css("color", "#428bca");
+        	});
+
+        	what.mouseout(function() {
+        		what.css("color", "#FFF");
+        	});
+
+        	hobbies1.on('click', function() {
+        		$("html, body").animate({scrollTop: $("#life").offset().top}, 2000);
+        	});
+
+        	hobbies1.mouseover(function() {
+        		hobbies1.css("color", "#428bca");
+        	});
+
+        	hobbies1.mouseout(function() {
+        		hobbies1.css("color", "#FFF");
+        	});
+
+        	goals1.on('click', function() {
+        		$("html, body").animate({scrollTop: $("footer").offset().top}, 4000);
+        	});
+
+        	goals1.mouseover(function() {
+        		goals1.css("color", "#428bca");
+        	});
+        	
+        	goals1.mouseout(function() {
+        		goals1.css("color", "#FFF");
+        	});
+
+        });
+
+
+
+
+        </script>
 
 <body>
 </html>
