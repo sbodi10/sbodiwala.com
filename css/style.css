@@ -470,11 +470,12 @@ img {
 	#contact-billboard {
 		background-image: url('../images/contact_small.png');
 		background-repeat: no-repeat;
-		background-position: -120px 0px;
+		background-position: -160px 0px;
+		margin-bottom: -100px;
 	}
 
 	#contact-billboard p {
-		visibility: hidden;
+		display: none;
 	}
 
 
@@ -482,7 +483,7 @@ img {
 
 
 
-/*Smartphones (Iphone & Samsung)*/
+/*Tablets (IPad and Galaxy Tab)*/
 @media all and (min-width : 320px) and (max-width : 540px) {
 	
 
