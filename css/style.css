@@ -350,8 +350,22 @@ img {
 	#inspiration-billboard {
 		background-image: url('../images/inspiration_small.jpg');
 		background-repeat: no-repeat;
-		margin: 100px 0px -100px 0px;
-		padding-right: 0px;
+		background-position: center 10px;
+		margin-bottom: -180px;
+
+	}
+
+	#guru {
+		float: left;
+		margin-bottom: 18px;
+	}	
+
+	#tarre {
+		clear: both;
+		float: left;
+		margin-left: -80px;
+		font-size: 20px;
+		margin-top: 12px;
 	}
 
 
