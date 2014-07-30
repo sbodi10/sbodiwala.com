@@ -389,7 +389,6 @@ img {
 
 	/* Project Page */
 
-
 	#projects-billboard {
 		background-image: url('../images/projects_small.png');
 		background-repeat: no-repeat;
@@ -436,11 +435,12 @@ img {
 	#leadership-billboard {
 		background-image: url('../images/leadership_small.jpg');
 		background-repeat: no-repeat;
-		background-position: -20px 10px;
+		background-position: -80px 10px;
+		margin-bottom: -70px;
 	}
 
 	#leadership-billboard p {
-		visibility: hidden;
+		display: none;
 	}
 
 	/* Work Experience Page*/
