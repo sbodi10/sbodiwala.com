@@ -445,17 +445,23 @@ img {
 
 	/* Work Experience Page*/
 
+	#workh {
+		font-size: 34px;
+	}
+
 	#work-billboard {
 		background-image: url('../images/work1_small.jpg');
 		background-repeat: no-repeat;
 		background-position: center 0px;
+		margin-bottom: -100px;
 	}
 
 	#work-billboard p {
-		visibility: hidden;
+		display: none;
 	}
 
 	#works h2 {
+		font-size: 20px;
 		padding: 0px 15px 0px 15px;
 	}
 
