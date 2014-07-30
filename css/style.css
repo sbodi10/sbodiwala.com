@@ -317,17 +317,17 @@ img {
 	}
 
 	#home-billboard p {
-		visibility: hidden;
+		display: none;
 	}
 
 	/* About Me Page */
 	
 	#head small {
-		visibility: hidden;
+		display: none;
 	}
 
 	#aboutme-billboard p {
-		visibility: hidden;
+		display: none;
 	}
 
 	.container h1 {
@@ -375,14 +375,15 @@ img {
 		background-image: url('../images/education1_small.jpg');
 		background-repeat: no-repeat;
 		background-position: center 0px;
+		margin-bottom: -100px;
 	}
 
 	#education-billboard p {
-		visibility: hidden;
+		display: none;
 	}
 
 	#rutgers {
-		visibility: hidden;
+		display: none;
 	}
 
 
