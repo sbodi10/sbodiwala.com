@@ -393,11 +393,12 @@ img {
 	#projects-billboard {
 		background-image: url('../images/projects_small.png');
 		background-repeat: no-repeat;
-		background-position: center 0px;
+		background-position: -30px 0px;
+		margin-bottom: -100px;
 	}
 
 	#projects-billboard p {
-		visibility: hidden;
+		display: none;
 	}
 
 	#finger {
