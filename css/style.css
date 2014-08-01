@@ -45,95 +45,95 @@ img {
 	padding-top: 10px;
 }
 
-#hello { 
-   color: white; 
-   font: bold 24px/45px Sans-Serif; 
-   letter-spacing: 0px;  
+#hello {
+   color: white;
+   font: bold 24px/45px Sans-Serif;
+   letter-spacing: 0px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 
+   padding: 10px;
 }
 
-#welcome { 
-   color: white; 
-   font: bold 24px/45px Sans-Serif; 
-   letter-spacing: 0px;  
+#welcome {
+   color: white;
+   font: bold 24px/45px Sans-Serif;
+   letter-spacing: 0px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 
+   padding: 10px;
 }
 
 
 #who {
-   color: white; 
-   font: bold 24px/45px Sans-Serif; 
-   letter-spacing: 0px;  
+   color: white;
+   font: bold 24px/45px Sans-Serif;
+   letter-spacing: 0px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 
+   padding: 10px;
 }
 
 #hobbies {
-   color: white; 
-   font: bold 24px/45px Sans-Serif; 
-   letter-spacing: 0px;  
+   color: white;
+   font: bold 24px/45px Sans-Serif;
+   letter-spacing: 0px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 
+   padding: 10px;
 }
 
 #goals {
-   color: white; 
-   font: bold 24px/45px Sans-Serif; 
-   letter-spacing: 0px;  
+   color: white;
+   font: bold 24px/45px Sans-Serif;
+   letter-spacing: 0px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 
+   padding: 10px;
 }
 
 #edu {
-   color: white; 
-   font: bold 24px/45px Sans-Serif; 
-   letter-spacing: 0px;  
+   color: white;
+   font: bold 24px/45px Sans-Serif;
+   letter-spacing: 0px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 
+   padding: 10px;
 }
 
 #pro {
-   color: white; 
-   font: bold 24px/45px Sans-Serif; 
-   letter-spacing: 0px;  
+   color: white;
+   font: bold 24px/45px Sans-Serif;
+   letter-spacing: 0px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 	
+   padding: 10px;
 }
 
 #leader {
-   color: white; 
-   font: bold 24px/45px Sans-Serif; 
-   letter-spacing: 0px;  
+   color: white;
+   font: bold 24px/45px Sans-Serif;
+   letter-spacing: 0px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 	
+   padding: 10px;
 }
 
 #work {
-   color: white; 
-   font: bold 24px/45px Sans-Serif; 
-   letter-spacing: 0px;  
+   color: white;
+   font: bold 24px/45px Sans-Serif;
+   letter-spacing: 0px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 
+   padding: 10px;
 }
 
 #contact {
-   color: white; 
-   font: bold 24px/45px Sans-Serif; 
-   letter-spacing: 0px;  
+   color: white;
+   font: bold 24px/45px Sans-Serif;
+   letter-spacing: 0px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 
+   padding: 10px;
 }
 
 #home-billboard {
@@ -233,6 +233,10 @@ img {
 	height: 500px;
 }
 
+#icons {
+	list-style-position: block;
+}
+
 #who {
 	cursor: pointer;
 }
@@ -321,7 +325,7 @@ img {
 	}
 
 	/* About Me Page */
-	
+
 	#head small {
 		display: none;
 	}
@@ -358,7 +362,7 @@ img {
 	#guru {
 		float: left;
 		margin-bottom: 18px;
-	}	
+	}
 
 	#tarre {
 		clear: both;
@@ -417,7 +421,7 @@ img {
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 	}
- 
+
 	.video-container iframe,
 	.video-container object,
 	.video-container embed {
@@ -485,7 +489,7 @@ img {
 
 /*Tablets (IPad and Galaxy Tab)*/
 @media all and (min-width : 320px) and (max-width : 540px) {
-	
+
 
 }
 
@@ -519,7 +523,7 @@ img {
 
 /*Inbetween Smartphone and Tablet*/
 @media only screen and (min-width : 541px) and (max-width : 768px) {
-	
+
 	/* Home Page */
 	.page-header h1 {
 		font-size: 46px;
