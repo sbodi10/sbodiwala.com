@@ -140,11 +140,9 @@ img {
 	width: 100%;
 	background-image: url(../images/sapan2.jpg);
 	background-repeat: no-repeat;
-	background-position: center -250px;
-	margin-top: ;
+	background-position: center 0px;
 	margin-right: 10px;
 	margin-bottom: 100px;
-	margin-left: ;
 	height: 500px;
 }
 
@@ -152,11 +150,9 @@ img {
 	width: 100%;
 	background-image: url(../images/sapan1.jpg);
 	background-repeat: no-repeat;
-	background-position: center -200px;
-	margin-top: ;
+	background-position: center 0px;
 	margin-right: 10px;
 	margin-bottom: 100px;
-	margin-left: ;
 	height: 600px;
 }
 
