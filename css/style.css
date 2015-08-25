@@ -159,13 +159,11 @@ img {
 
 #inspiration-billboard {
 	width: 100%;
-	background-image: url(../images/inspiration.jpg);
+	background-image: url(../images/tarrelainehu.jpg);
 	background-repeat: no-repeat;
-	background-position: center -100px;
-	margin-top: ;
+	background-position: center 0px;
 	margin-right: 10px;
 	margin-bottom: 100px;
-	margin-left: ;
 	height: 500px;
 }
 
@@ -173,7 +171,7 @@ img {
 	width: 100%;
 	background-image: url(../images/education1.jpg);
 	background-repeat: no-repeat;
-	background-position: center -150px;
+	background-position: center 0px;
 	margin-top: ;
 	margin-right: 10px;
 	margin-bottom: 100px;
@@ -183,9 +181,9 @@ img {
 
 #projects-billboard {
 	width: 100%;
-	background-image: url(../images/projects.png);
+	background-image: url(../images/projects.jpg);
 	background-repeat: no-repeat;
-	background-position: center -50px;
+	background-position: center 0px;
 	margin-top: ;
 	margin-right: 10px;
 	margin-bottom: 100px;
@@ -197,19 +195,17 @@ img {
 	width: 100%;
 	background-image: url(../images/leadership.jpg);
 	background-repeat: no-repeat;
-	background-position: center -160px;
-	margin-top: ;
+	background-position: center 0px;
 	margin-right: 10px;
 	margin-bottom: 100px;
-	margin-left: ;
 	height: 500px;
 }
 
 #work-billboard {
 	width: 100%;
-	background-image: url(../images/work1.jpg);
+	background-image: url(../images/work.jpg);
 	background-repeat: no-repeat;
-	background-position: center -160px;
+	background-position: center 0px;
 	margin-top: ;
 	margin-right: 10px;
 	margin-bottom: 100px;
@@ -278,6 +274,7 @@ img {
 .list-group-item:hover {
 	color: white;
 	background-color: #428BCA;
+	cursor: default;
 }
 
 
@@ -450,7 +447,7 @@ img {
 	}
 
 	#work-billboard {
-		background-image: url('../images/work1_small.jpg');
+		background-image: url('../images/work.jpg');
 		background-repeat: no-repeat;
 		background-position: center 0px;
 		margin-bottom: -100px;
